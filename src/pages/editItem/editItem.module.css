@@ -1,0 +1,48 @@
+.back-link {
+  font-size: 14px;
+  color: var(--primary);
+  text-decoration: underline;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.form {
+  max-width: 450px;
+}
+
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 20px;
+}
+
+.form-input-container label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-input-container input {
+  padding: 10px 13px;
+  border: 1px solid var(--primaryLight);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.8);
+  transition: 0.2s;
+}
+
+.form-input-container input:focus {
+  border-color: var(--primary);
+  outline-color: var(--primary);
+}
+
+.form button {
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background-color: var(--primaryLight);
+  cursor: pointer;
+  border: 1px solid var(--primaryLight);
+  width: 100%;
+}

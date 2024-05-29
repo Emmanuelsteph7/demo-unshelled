@@ -1,0 +1,12 @@
+.home-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 160px;
+  gap: 40px;
+}
+
+.home-pagination-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
